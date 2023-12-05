@@ -12,12 +12,12 @@ function Hero() {
                 </div>
                 <div className="shop">
                     <p>Also Available On</p>
-                    <img src="/images/flipkart.png" alt="" />
-                    <img src="/images/amazon.png" alt="" />
+                    <img src="./public/images/flipkart.png" alt="" />
+                    <img src="./public/images/amazon.png" alt="" />
                 </div>
             </div>
             <div className="hero-right">
-                <img src="/images/shoe_image.png" alt="" />
+                <img src="./public/images/shoe_image.png" alt="" />
             </div>
         </div>
     )
