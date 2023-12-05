@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #D01C28;
+    --white: #fff;
+    --black: #000000;
+    --gray: #5A5959;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 76px;
+    height: 43px;
+}
+
+nav ul {
+    width: 333px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 24px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav button {
+    all: unset;
+    width: 75px;
+    height: 31px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--red);
+    text-align: center;
+    color: var(--white);
+}
+
+/* hero section  */
+
+.main {
+    margin: 150px auto 0;
+    width: 1125px;
+    height: 613px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main .hero-left {
+    width: 595px;
+    height: 613px;
+}
+
+.main .hero-left h1 {
+    width: 100%;
+    display: block;
+    font-size: 100px;
+    line-height: 102px;
+    font-weight: 800;
+    color: var(--black);
+}
+
+.main .hero-left p {
+    font-size: 16px;
+    color: var(--gray);
+    font-style: normal;
+    line-height: normal;
+    margin: 20px 0;
+}
+
+.main .btn {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.main .btn button:nth-child(1) {
+    all: unset;
+    color: var(--white);
+    padding: 6px 16px;
+    font-weight: 500;
+    background-color: var(--red);
+    border: 2px solid var(--red);
+}
+
+.main .btn button:nth-child(2) {
+    all: unset;
+    margin-left: 30px;
+    padding: 6px 16px;
+    font-weight: 500;
+    border: 2px solid var(--gray);
+}
+.main .shop{
+    margin: 20px 0;
+}
+.main .shop p {
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px;
+}
+.main .shop img{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.main .hero-right{
+    width: 530px;
+    height: 488px;
+}
